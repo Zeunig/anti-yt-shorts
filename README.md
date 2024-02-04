@@ -9,5 +9,5 @@ Currently tested on desktop only.
 [PayPal](https://paypal.me/zeunig)
 
 ## Contact
-[Discord server](https://discord.gg/VwpuQpZghY)
+[Discord server](https://discord.gg/VwpuQpZghY)<br>
 [E-mail](business@mail.zeunig.hu)
