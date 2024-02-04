@@ -10,4 +10,4 @@ Currently tested on desktop only.
 
 ## Contact
 [Discord server](https://discord.gg/VwpuQpZghY)<br>
-[E-mail](business@mail.zeunig.hu)
+[E-mail](mailto:business@mail.zeunig.hu)
