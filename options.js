@@ -17,9 +17,11 @@ function handle(cb) {
             });
         }
         changeColor();
-        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-            if(tabs[0].url.includes("youtube.com")) {
-                chrome.tabs.reload(tabs[0].id);
+        chrome.tabs.query({}, function(tabs) {
+            for(tab in tabs) {
+                if(tabs[tab].url.includes("youtube.com")) {
+                    chrome.tabs.reload(tabs[tab].id);
+                }
             }
         });
     });
