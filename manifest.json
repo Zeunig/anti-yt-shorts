@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Anti YouTube Shorts",
+    "version": "1.0",
+    "description": "Removes YouTube Shorts",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["remove_shorts.js"]
+      },
+      {
+        "matches": ["*://*.youtube.com/shorts/*"],
+        "js": ["redirect_shorts.js"]
+      }
+    ],
+    "options_ui": {
+        "page": "options.html"
+    },
+    "permissions": ["storage", "tabs"],
+    "action": {
+        "default_popup": "options.html"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "{c410bc70-c642-4164-b4f2-f0d2019cfebf}",
+          "strict_min_version": "42.0"
+        }
+      }
+}
+    
+  
