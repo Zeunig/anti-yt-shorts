@@ -26,7 +26,10 @@
           "id": "{c410bc70-c642-4164-b4f2-f0d2019cfebf}",
           "strict_min_version": "42.0"
         }
-      }
+    },
+	"host_permissions": [
+	  "*://*.youtube.com/*"
+	]
 }
     
   
